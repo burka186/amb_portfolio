@@ -1,0 +1,22 @@
+[
+{ "id": "1",
+  "url": "#",
+  "img": "./img/ava_logo.png",
+  "name": "TRIGGER",
+  "category": "make"},
+{ "id": "2",
+  "url": "#",
+  "img": "./img/ava_logo.png",
+  "name": "MUTUALLY",
+  "category": "make"},
+{ "id": "3",
+  "url": "http://www.forbes.com/profile/marilyn-carlson-nelson/",
+  "img": "./img/ava_logo.png",
+  "name": "SPACE DOG",
+  "category": "write"},
+{ "id": "4",
+  "url": "http://www.forbes.com/profile/nancy-walton-laurie/",
+  "img": "./img/ava_logo.png",
+  "name": "TABLE DESIGN",
+  "category": "experiment"}
+]

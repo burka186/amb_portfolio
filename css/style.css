@@ -1,0 +1,211 @@
+body {
+  width: 100%;
+}
+body h1, body h2, body h3, body h4, body input {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: .2em;
+}
+body p {
+  font-family: "Muli", sans-serif;
+  font-size: 1.25em;
+}
+
+/*navbar*/
+
+.navbar-fixed-top {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: .2em;
+  background-color: white;
+  font-weight: 400;
+}
+.navbar-fixed-top .navbar-brand {
+  font-weight: 800;
+  color: black;
+}
+.navbar-fixed-top a {
+  color: black;
+}
+
+.navbar {
+  margin-right: 0%;
+  width: 100%;
+}
+
+.navbar-header .collapsed {
+  color: black;
+}
+
+.icon-bar {
+  color: black;
+}
+
+/*homepage*/
+
+#homepage {
+  height: 100vh;
+}
+
+#homepage-container {
+  position: relative;
+}
+
+#homepage #portrait {
+  width: 920px;
+  position: absolute;
+  margin:auto;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+  z-index: -1;
+}
+
+#hey-container {
+  position: relative;
+  padding-top: 25%;
+}
+
+/*#hompeage #hey {
+  position: absolute;
+  margin-left: auto;
+  margin-top: 0px;
+  z-index: 100;
+  opacity: 0.5;
+  width: 400px;
+}*/
+
+/*about section*/
+
+#logo {
+  width: 200px;
+  height: 200px;
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+
+#about {
+  padding: 5%;
+  background-image:
+    linear-gradient(
+      transparent, #f7484e
+    );
+}
+#about h2 {
+  color: white;
+  text-align: center;
+}
+#about a {
+  color: white;
+  text-align: center;
+}
+#about h4 {
+  line-height: 200%;
+  color: white;
+  text-align: center;
+}
+
+#stay-in-touch {
+  width: 300px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+/*main work section showing all projects/switching categories */
+
+#selected-work-container {
+  background-color: black;
+  margin-bottom: 5%;
+}
+
+#selected-work {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: white;
+}
+
+.cat-select {
+  background-color: #cdcdcd;
+  height: auto;
+  border: 1px solid white;
+  margin-bottom: 5%;
+}
+
+.cat-select h4 {
+  color: white;
+  vertical-align: bottom;
+  padding-top padding-bottom: 2%;
+}
+
+.btn-lg {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.project-module {
+  margin-bottom: 5%;
+}
+
+.project-module a {
+  color: black;
+  text-decoration: underline;
+}
+
+.project-module:hover {
+  opacity: 0.8;
+}
+
+.btn-lg:focus,.btn-lg:active {
+   outline: none !important;
+   background-color: black;
+}
+
+/*individual project view*/
+
+.x-button {
+  background-color: black;
+  color: white;
+  outline: none !important;
+}
+
+.x-button:focus,.x-button:active,.x-button:hover {
+  background-color: #f7484e;
+  color: white;
+  outline: none !important;
+}
+
+#project {
+  background-color: white;
+}
+
+#project-title {
+  color: #f7484e;
+  text-decoration: underline;
+  margin-bottom: 5%;
+}
+
+.carousel-pic {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    outline: none;
+    color: black;
+    text-shadow: none;
+}
+
+/*footer*/
+
+footer {
+  height: 20vh;
+  background-color: black;
+}
+
+#footer-content {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+  font-size: 0.6em;
+}

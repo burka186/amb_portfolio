@@ -1,0 +1,28 @@
+<div class="container-fluid">
+	<a href="#/"><button class="btn btn-lg pull-right glyphicon glyphicon-remove-circle x-button"></button></a>
+	<div class="container">
+		<h2 id="project-title">MUTUALLY</h2>
+		<div class="col-xs-8-offset-2">
+			<h4>Medium: Javascript, Temboo, Twitter API</h4>
+			<br>
+			<p>I've been lucky enough to make a lot of friends on the internet, specifically through Twitter. While the Twitter app shows you whether someone follows you back (in millenial parlance, whether you're "mutuals") when you click on their profile, there's currently no place to see all your mutual friends in one place...so I made one!</p>
+			<p>This was a great first experience using Temboo (and brushing up on my PHP skills) and taking on the Twitter API and OAuth.</p>
+			<h3 class="text-center"><a href="http://avaburke.me/mutually/" target="_blank">CHECK OUT MUTUALLY FOR YOURSELF!</a></h3>
+			<br>
+		</div>
+		<div class="col-xs-8-offset-2" ng-controller="carouselController">
+			<uib-carousel class="carousel" interval="myInterval" no-wrap="noWrapSlides">
+		    	<uib-slide active="true" index="0">
+		    		<img class="carousel-img" src="./img/mutually/mutually1.png" style="margin:auto;">
+		    	</uib-slide>
+		    	<uib-slide active="false" index="1">
+		    		<img class="carousel-img" src="./img/mutually/mutually2.png" style="margin:auto;">
+		    	</uib-slide>
+		    	<uib-slide active="false" index="2">
+		    		<img class="carousel-img" src="./img/mutually/mutually3.png" style="margin:auto;">
+		    	</uib-slide>
+		    </uib-carousel>
+		<br>
+		</div>
+	</div>
+</div>

@@ -10,6 +10,15 @@ body p {
   font-size: 1.25em;
 }
 
+body a {
+  color: black;
+  text-decoration: underline;
+}
+
+body a:hover {
+  color: #f7484e;
+}
+
 /*navbar*/
 
 .navbar-fixed-top {
@@ -62,7 +71,7 @@ body p {
 
 #hey-container {
   position: relative;
-  padding-top: 25%;
+  padding-top: 22%;
 }
 
 /*#hompeage #hey {
@@ -174,18 +183,20 @@ body p {
   outline: none !important;
 }
 
-#project {
-  background-color: white;
-}
-
 #project-title {
   color: #f7484e;
   text-decoration: underline;
   margin-bottom: 5%;
 }
 
-.carousel-pic {
-  max-width: 600px;
+.carousel {
+  max-width: 920px;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+.carousel-img {
+  max-width: 920px;
   max-height: 600px;
 }
 
